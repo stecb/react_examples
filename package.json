@@ -4,7 +4,8 @@
   "description": "reactday code - rethinking UI development 2.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
   },
   "author": "@stecb",
   "license": "MIT",
@@ -16,7 +17,9 @@
     "webpack-dev-server": "^1.12.1"
   },
   "dependencies": {
+    "highlight.js": "^8.9.1",
     "react": "^0.14.0",
-    "react-dom": "^0.14.0"
+    "react-dom": "^0.14.0",
+    "react-highlight": "^0.5.1"
   }
 }
