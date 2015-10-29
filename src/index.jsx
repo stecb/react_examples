@@ -1,6 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { CiaoHandler, BoxHandler, BoxWithStateHandler, ClickableCounterHandler, InputHandler, CombinationHandler } from './components/examples';
+import CiaoHandler from './components/ciao';
+import BoxHandler from './components/box';
+import BoxWithStateHandler from './components/boxwithstate';
+import ClickableCounterHandler from './components/clickablecounter';
+import InputHandler from './components/input';
+import CombinationHandler from './components/mycustomcomponent';
+
 import { Router, Route, Link } from 'react-router';
 
 require('./style/app.css');
