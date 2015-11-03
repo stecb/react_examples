@@ -8,6 +8,7 @@ import InputHandler from './components/input';
 import CombinationHandler from './components/mycustomcomponent';
 
 import { Router, Route, Link } from 'react-router';
+import createBrowserHistory from 'history/lib/createBrowserHistory';
 
 require('./style/app.css');
 
@@ -47,4 +48,4 @@ const routes = (
   </Route>
 );
 
-ReactDOM.render(<Router>{routes}</Router>, document.getElementById('app'));
+ReactDOM.render(<Router history={createBrowserHistory()}>{routes}</Router>, document.getElementById('app'));
